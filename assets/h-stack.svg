@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="Stack">
+  <rect width="170" height="44" rx="22" fill="#000000"/>
+  <rect x="0.5" y="0.5" width="169" height="43" rx="21.5" fill="none" stroke="#ff2d95" stroke-opacity="0.6"/>
+  <text x="85" y="29" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1" fill="#ff2d95">
+    <tspan font-family="'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🛠️</tspan><tspan font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"> Stack</tspan>
+  </text>
+</svg>

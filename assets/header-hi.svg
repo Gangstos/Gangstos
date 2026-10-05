@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Gangstos, backend developer">
+  <defs>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2d95" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff2d95"/>
+      <stop offset="1" stop-color="#ff2d95" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="240" rx="24" fill="#000000"/>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="23.5" fill="none" stroke="#ff2d95" stroke-opacity="0.4"/>
+
+  <text x="450" y="112" text-anchor="middle" font-size="46" font-weight="700" filter="url(#glow)">
+    <tspan font-family="'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🎀</tspan><tspan font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" fill="#ff2d95"> Gangstos / backend developer</tspan>
+  </text>
+
+  <rect x="230" y="146" width="440" height="2" fill="url(#line)"/>
+
+  <!-- "Hi <3" typed one character at a time, held, then gone; repeats every 4.5 s.
+       Each character sits in its own fixed slot (26 px apart), so nothing depends on font metrics. -->
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#ff2d95" text-anchor="middle" filter="url(#glow)">
+    <text x="398" y="204" opacity="0">H
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.07;0.72" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="424" y="204" opacity="0">i
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.16;0.72" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="476" y="204" opacity="0">&lt;
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.72" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="502" y="204" opacity="0">3
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.34;0.72" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
